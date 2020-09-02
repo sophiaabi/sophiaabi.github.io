@@ -3,6 +3,8 @@
 	background-color:black;
 }
 
+button:focus {outline:0;}
+
 .tabBar{
 	background-color: white;
 }
