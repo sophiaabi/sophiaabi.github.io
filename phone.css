@@ -1,0 +1,89 @@
+* {
+	font-family:Poppins, sans-serif;
+	background-color:black;
+}
+
+.tabBar{
+	background-color: white;
+}
+
+.tab{
+	border-style: none;
+	background-color:white;
+	font-size: 25px;
+	margin-left:20px;
+	margin-top:15px;
+	padding-bottom:15px;
+}
+
+.tab:hover {
+	border-bottom: solid;
+	border-bottom-width:5px;
+	border-bottom-color:#CD79EF;
+}
+
+h2{
+	color:white;
+	font-size:300%;
+	margin: 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#dialerBox{
+	background-color:#CD79EF;
+	margin: 10px;
+	width:345px;
+	height:50px;
+	font-size: 25px;
+}
+
+.dialerButton{
+	background-color:white;
+	border-style:none;
+	width:100px;
+	height:50px;
+	margin:10px;
+	font-size: 25px;
+}
+
+.submitButton{
+	background-color:white;
+	border-style:none;
+	width:162.5px;
+	height:50px;
+	margin:10px;
+	font-size: 25px;
+}
+
+.contactButton{
+	background-color:white;
+	border-style:none;
+	width:170px;
+	height:50px;
+	margin:10px;
+	font-size: 15px;
+}
+
+label{
+	color:white;
+	font-size:25px;
+	margin:10px;
+}
+
+#name, #phoneNumber, #eaddress{
+	background-color:#CD79EF;
+	margin: 10px;
+	width:345px;
+	height:50px;
+	font-size: 25px;
+}
+
+#addContactButton, #clearContactButton {
+	background-color:white;
+	border-style:none;
+	width:162.5px;
+	height:50px;
+	margin:10px;
+	font-size: 25px;
+}

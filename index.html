@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+
+<title>
+	Sophia AbiEzzi
+</title>
+
+<meta charset="utf-8">
+
+<link href="phone.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="tabBar">
+  		<button class="tab" id="dialer" >Dialer</button>
+  		<button class="tab" id="contactList" >Contact List</button>
+  		<button class="tab" id="addContact" >Add Contact</button>
+	</div>
+
+	<div class="body">
+		<div id="dialerPage">
+			<h2>Dialer </h2>
+			<form id="dialerForm">
+				<input type="text" id="dialerBox"><br>
+			</form>
+				<button class="dialerButton" id="d1">1</button>
+				<button class="dialerButton" id="d2">2</button>
+				<button class="dialerButton" id="d3">3</button><br>
+				<button class="dialerButton" id="d4">4</button>
+				<button class="dialerButton" id="d5">5</button>
+				<button class="dialerButton" id="d6">6</button><br>
+				<button class="dialerButton" id="d7">7</button>
+				<button class="dialerButton" id="d8">8</button>
+				<button class="dialerButton" id="d9">9</button><br>
+				<button class="dialerButton" id="dStar">*</button>
+				<button class="dialerButton" id="d0">0</button>
+				<button class="dialerButton" id="dPound">#</button><br>
+				<button class="submitButton" id="dial">Dial</button>
+				<button class="submitButton" id="clear">Clear</button>
+		</div>
+		<div id="contactListPage">
+			<h2>Contact List </h2>
+			<button class="contactButton"> Harry Potter</button>
+			<button class="contactButton"> Hermione Granger</button>
+			<button class="contactButton"> Ron Weasley</button>
+			<button class="contactButton"> Voldemort</button><br>
+			<button class="contactButton"> Serverus Snape</button>
+			<button class="contactButton"> Dumbledore</button>
+			<button class="contactButton"> Neville Longbottom</button>
+			<button class="contactButton"> Cho Chang</button><br>
+			<button class="contactButton"> Ginny Weasley</button>
+			<button class="contactButton"> Draco Malfoy</button>
+			<button class="contactButton"> Tom Riddle</button>
+			<button class="contactButton"> Rubeus Hagrid</button>
+			
+
+		</div>
+		<div id="addContactPage">
+			<h2> Add Contact </h2>
+			<form id="contactForm">
+  				<label for="name" >Name:</label><br>
+  				<input type="text" id="name" name="name"><br>
+ 				<label for="phoneNumber">Phone Number:</label><br>
+  				<input type="text" id="phoneNumber" name="phoneNumber"><br>
+  				<label for="eaddress">Email Address</label><br>
+  				<input type="text" id="eaddress" name="eaddress"><br>
+			</form>
+			<button id="addContactButton">Add</button>
+  			<button id="clearContactButton">Clear</button>
+		</div>
+	<div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="phone.js"> </script>
+
+</body>
+</html>
